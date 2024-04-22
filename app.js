@@ -29,7 +29,7 @@ app.use(expressPartials())
 app.use(mainRouter)
 
 
-app.listen(process.env.PORT || 5000, (err) => {
+app.listen(process.env.PORT || 5544, (err) => {
     if (err) return console.log(err)
     console.log(`Successfully started server on port number ${process.env.PORT || 5000}`)
 })
